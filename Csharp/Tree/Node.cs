@@ -77,5 +77,10 @@ namespace Tree
         {
             return "";
         }
+
+        public virtual bool isProcedure()
+        {
+            return false;
+        }
     }
 }
